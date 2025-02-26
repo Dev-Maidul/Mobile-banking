@@ -9,7 +9,7 @@ document.getElementById('login-btn').addEventListener('click',function(event){
             window.location.href="./main.html";
 
         }
-        alert("Pin does't match")
+        else alert("Pin does't match")
     }
     else {
         alert("Please Input your 11 digit number")
